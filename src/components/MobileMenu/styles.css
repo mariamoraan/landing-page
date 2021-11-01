@@ -1,0 +1,32 @@
+
+.mobile-menu{
+    border-radius: 8px;
+    background: var(--white);
+    width: 80vw;
+    height: auto;
+    padding: 16px;
+    position: absolute;
+    top: calc(8vh + 24px);
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 100;
+    color: var(--dark-blue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.39); 
+box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.39);
+}
+.mobile-menu a{
+    color: var(--dark-blue);
+    text-decoration: none;
+    margin: 8px;
+    font-weight: bold;
+}
+
+.is_none{
+    display: none;
+}
+

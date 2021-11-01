@@ -1,0 +1,42 @@
+.list-of-benefits{
+    background: var( --light-grayish-blue);
+    padding: 0 64px;
+    padding-bottom: 20vh;
+}
+
+.list-of-benefits p{
+    margin: 16px 0;
+}
+
+.list-of-benefits ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    margin-top: 64px;
+    
+}
+.list-of-benefits ul li{
+    margin: 0;
+    margin-right: 48px;
+    width: 20vw;
+}
+
+@media (max-width: 1125px) {
+    .list-of-benefits{
+        padding: 8vh 24px;
+        text-align: center;
+    }
+    .list-of-benefits ul{
+        flex-direction: column;
+    }
+    .list-of-benefits ul li{
+        margin: 0;
+        padding: 8px;
+        width: auto;
+        margin-bottom: 24px;
+    }
+    .list-of-benefits p{
+        margin: 8px 0;
+    }
+}

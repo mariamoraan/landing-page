@@ -1,0 +1,12 @@
+.default-button{
+    border: none;
+    outline: none;
+    color: var(--white);
+    background: linear-gradient(90deg, var(--lime-green), var(--bright-cyan));
+    padding: 8px 32px;
+    border-radius: 64px;
+}
+.default-button:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}

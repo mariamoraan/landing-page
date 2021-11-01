@@ -1,0 +1,37 @@
+.article{
+    background: var(--white);
+    border-radius: 8px 8px 0 0;
+}
+
+.article img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.article .article-info{
+    padding: 0 20px;
+    height: auto;
+    min-height: 10vw;
+}
+.article .article-author{
+    font-size: 0.7em;
+}
+.article .article-author::before{
+    content: 'By ';
+}
+.article .article-info-text{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+
+@media (max-width: 1125px) {
+    .article .article-info{
+        padding: 0 8px;
+        height: auto;
+        text-align: left;
+    }
+}

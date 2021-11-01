@@ -1,0 +1,10 @@
+.benefit h3{
+    font-weight: 400;
+    margin: 24px 0;
+}
+.benefit img{
+    height: 64px;
+}
+.benefit p{
+    color: var(--grayish-blue);
+}
