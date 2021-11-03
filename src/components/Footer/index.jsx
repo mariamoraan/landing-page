@@ -11,17 +11,20 @@ import yt from "../../assets/icon-youtube.svg"
 import pn from "../../assets/icon-pinterest.svg"
 import tw from "../../assets/icon-twitter.svg"
 
+
+
 const Footer = () =>{
     return(
         <footer>
             <div className="identity">
                 <Logo light={true}/>
                 <ul className="social-links">
-                    <li><a href="/"><img src={fb} alt="" /></a></li>
-                    <li><a href="/"><img src={yt} alt="" /></a></li>
-                    <li><a href="/"><img src={tw} alt="" /></a></li>
-                    <li><a href="/"><img src={pn} alt="" /></a></li>
-                    <li><a href="/"><img src={ig} alt="" /></a></li>
+                    
+                    <li><a href="#"><img src={fb} alt="" fill="red" /></a></li>
+                    <li><a href="#"><img src={yt} alt="" /></a></li>
+                    <li><a href="#"><img src={tw} alt="" /></a></li>
+                    <li><a href="#"><img src={pn} alt="" /></a></li>
+                    <li><a href="#"><img src={ig} alt="" /></a></li>
                 </ul>
             </div>
             <div className="links">

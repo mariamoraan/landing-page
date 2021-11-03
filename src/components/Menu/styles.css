@@ -28,11 +28,15 @@
 .menu ul li a{
     text-decoration: none;
     color: var( --grayish-blue);
-     
+        
 }
 .menu ul li:hover {
     cursor: pointer;
     border-image-source: linear-gradient(to left, var(--bright-cyan), var(--lime-green));
+}
+.menu ul li:hover a {
+    color: var(--dark-blue);
+    
 }
 #menu-button{
     display: none;

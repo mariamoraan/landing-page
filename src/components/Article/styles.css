@@ -3,6 +3,14 @@
     border-radius: 8px 8px 0 0;
 }
 
+.article:hover{
+    cursor: pointer;
+}
+
+.article:hover .article-title{
+    color: var(--bright-cyan);
+}
+
 .article img{
     width: 100%;
     height: auto;
@@ -16,6 +24,9 @@
 }
 .article .article-author{
     font-size: 0.7em;
+}
+.article .article-title{
+    font-weight: 300;
 }
 .article .article-author::before{
     content: 'By ';

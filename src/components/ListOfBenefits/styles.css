@@ -4,9 +4,10 @@
     padding-bottom: 20vh;
 }
 
-.list-of-benefits p{
-    margin: 16px 0;
+.list-of-benefits  p{
+    margin: 24px 0;
 }
+
 
 .list-of-benefits ul{
     display: flex;
@@ -36,7 +37,5 @@
         width: auto;
         margin-bottom: 24px;
     }
-    .list-of-benefits p{
-        margin: 8px 0;
-    }
+    
 }

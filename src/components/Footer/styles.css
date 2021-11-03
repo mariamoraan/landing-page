@@ -8,12 +8,14 @@ footer{
     padding: 0 64px;
 }
 
+
+
 .identity{
     margin-right: 8vw;
 }
 
 .social-links {
-    margin-top: 32px;
+margin-top: 32px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,6 +37,9 @@ footer{
 }
 .links li{
     margin-bottom: 16px;
+}
+.links a:hover{
+    color: var(--lime-green);
 }
 .links a{
     color: var(--very-light-grey);
