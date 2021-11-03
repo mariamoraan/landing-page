@@ -43,10 +43,11 @@
 .list-of-articles ul::-webkit-scrollbar-track {
     border-radius: 10px;  
 }
+
 .list-of-articles ul li{
     margin: 0;
     margin-right: 48px;
-    min-width: 300px;
+    min-width: 200px;
     height: 500px;
     width: 15vw;
 }
@@ -62,5 +63,7 @@
         margin: 0;
         width: auto;
         margin-bottom: 10vh;
+        height: auto;
+        min-width: 0;
     }
 }
