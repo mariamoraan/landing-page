@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://mia-moran.github.io/landing-page/](https://mariamoraan.github.io/landing-page/)
+- Live Site URL: [https://mariamoraan.github.io/landing-page/](https://mariamoraan.github.io/landing-page/)
 
 ## My process
 
